@@ -1,0 +1,10 @@
+.footer-div-top {
+display: flex;
+flex-direction: row;
+}
+
+.footer-div-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

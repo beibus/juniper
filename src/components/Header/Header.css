@@ -1,0 +1,12 @@
+.header-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-div-navbar-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+}
