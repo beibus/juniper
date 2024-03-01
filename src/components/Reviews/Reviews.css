@@ -1,0 +1,19 @@
+.reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #E0A12E;
+  ;
+}
+
+.reviews-container {
+  width: 460px;
+  border: 1px solid red
+}
+
+.reviews-container-slider-card {
+  height: 220px;
+  width: 460px;
+  border: 1px solid black;
+  
+}
