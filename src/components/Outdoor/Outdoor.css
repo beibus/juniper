@@ -1,0 +1,16 @@
+.outdoor {
+  
+}
+.outdoor-features {
+  height: 264px;
+background-image: url(../../assets/wave.png);
+margin-top: -80px;
+}
+
+.outdoor-activities {
+  background-color: #E0A12E;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+

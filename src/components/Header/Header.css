@@ -1,7 +1,18 @@
+
+
 .header-div {
+  height: 50px;
+  background: #D2982D;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+
+.header-div-logo {
+  background-image: url(../../assets/juniper.png);
+  height: 17px;
+  width: 97px;
 }
 
 .header-div-navbar-list {
@@ -9,4 +20,6 @@
   flex-direction: row;
   justify-content: space-between;
   width: 300px;
+  list-style-type: none;
 }
+

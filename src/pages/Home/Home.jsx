@@ -1,5 +1,6 @@
 import React from 'react'
 import Forecaster from "../../components/Forecaster/Forecaster"
+import Features from "../../components/Features/Features"
 import Outdoor from "../../components/Outdoor/Outdoor"
 import Reviews from "../../components/Reviews/Reviews"
 import FAQ from "../../components/FAQ/FAQ"
@@ -12,6 +13,7 @@ const Home = () => {
   return (
     <div>
       <Forecaster />
+      <Features />
       <Outdoor />
       <Reviews />
       <FAQ />

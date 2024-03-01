@@ -6,6 +6,7 @@ import {
 import routes from "./routes"
 import Layout from "./components/Layout/Layout"
 import Page404 from "./pages/Page404/Page404"
+import "@fontsource/inter"
 
 function App() {
 

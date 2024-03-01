@@ -8,7 +8,7 @@ const Header = () => {
     <header>
       <div className="header-div">
         <h1 className="header-div-logo">
-          <Link to={PathConstants.HOME}>Juniper</Link>
+          <Link to={PathConstants.HOME}></Link>
         </h1>
         <nav className="header-div-navbar">
           <ul className="header-div-navbar-list">
