@@ -26,7 +26,7 @@ const Header = () => {
               <Link className="header-div-navbar-list-item-link" to={PathConstants.TOS}>TOS</Link>
             </li>
             <li className="header-div-navbar-list-item">
-              <Link className="header-div-navbar-list-item-link" to={PathConstants.INFO}><img src={search} alt={search} /></Link>
+              <Link className="header-div-navbar-list-item-link" to={PathConstants.NEW}><img src={search} alt={search} /></Link>
             </li>
           </ul>
         </nav>

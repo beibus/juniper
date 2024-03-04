@@ -5,6 +5,7 @@ const pathConstants = {
  INFO: "info",
  SHOP: "shop",
  TOS: "tos",
+ NEW: "new",
 
 
 }
