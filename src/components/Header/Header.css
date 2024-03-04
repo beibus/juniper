@@ -1,7 +1,8 @@
 
 
 .header-div {
-  height: 50px;
+  padding: 20px 50px;
+  height: 10px;
   background: #D2982D;
   display: flex;
   flex-direction: row;
@@ -23,3 +24,14 @@
   list-style-type: none;
 }
 
+.header-div-navbar-list-item-link {
+  color: #FFFFFF;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

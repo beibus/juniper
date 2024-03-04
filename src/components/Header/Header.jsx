@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import PathConstants from "../../routes/pathConstants";
 import "./Header.css"
+import search from "../../assets/search.png"
 
 const Header = () => {
   return (
@@ -13,19 +14,19 @@ const Header = () => {
         <nav className="header-div-navbar">
           <ul className="header-div-navbar-list">
             <li className="header-div-navbar-list-item">
-              <Link to={PathConstants.HOME}>Home</Link>
+              <Link className="header-div-navbar-list-item-link" to={PathConstants.HOME}>Home</Link>
             </li>
             <li className="header-div-navbar-list-item">
-              <Link to={PathConstants.INFO}>Info</Link>
+              <Link className="header-div-navbar-list-item-link"to={PathConstants.INFO}>Info</Link>
             </li>
             <li className="header-div-navbar-list-item">
-              <Link to={PathConstants.SHOP}>Shop</Link>
+              <Link className="header-div-navbar-list-item-link" to={PathConstants.SHOP}>Shop</Link>
             </li>
             <li className="header-div-navbar-list-item">
-              <Link to={PathConstants.TOS}>TOS</Link>
+              <Link className="header-div-navbar-list-item-link" to={PathConstants.TOS}>TOS</Link>
             </li>
             <li className="header-div-navbar-list-item">
-              <Link to={PathConstants.INFO}>Search</Link>
+              <Link className="header-div-navbar-list-item-link" to={PathConstants.INFO}><img src={search} alt={search} /></Link>
             </li>
           </ul>
         </nav>

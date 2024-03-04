@@ -1,16 +1,92 @@
-.outdoor {
-  
-}
+
 .outdoor-features {
+  padding: 0px 100px;
   height: 264px;
-background-image: url(../../assets/wave.png);
-margin-top: -80px;
+  background-image: url(../../assets/wave.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .outdoor-activities {
   background-color: #E0A12E;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  padding: 0px 100px;
 }
+
+.outdoor-activities-image {
+  width: 40%;
+}
+
+.outdoor-activities-text {
+  width: 40%;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.outdoor-activities-text-secondary {
+font-size: 32px;
+font-weight: 500;
+color: #2B261D;
+
+}
+
+.outdoor-activities-text-points {
+  font-size: 20px;
+  font-weight: 500;
+color: #403B45;  
+}
+
+.outdoor-activities-text-points:first-of-type {
+  color: #FFFFFF;
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 28%;
+}
+
+.feature-card-title {
+  display: flex;
+
+}
+
+.feature-card-title-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.feature-card-title-text {
+font-size: 24px;
+font-weight: 500;
+align-self: center;
+color: #FFFFFF;
+}
+
+.feature-card-content-text {
+font-size: 16px;
+font-weight: 400;
+color: #FFFFFF;
+height: 80%;
+}
+
+h2 {
+  margin: 0;
+font-size: 48px;
+font-weight: 600;
+color: #FFFFFF;
+}
+
+h3 {
+  margin: 0;
+}
+
 

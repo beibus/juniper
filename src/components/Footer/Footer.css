@@ -1,3 +1,7 @@
+.footer-div {
+  background-image: url("../../assets/bottom-wave.png");
+}
+
 .footer-div-top {
 display: flex;
 flex-direction: row;

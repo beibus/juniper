@@ -5,15 +5,12 @@ import Outdoor from "../../components/Outdoor/Outdoor"
 import Reviews from "../../components/Reviews/Reviews"
 import FAQ from "../../components/FAQ/FAQ"
 import Download from "../../components/Download/Download"
-
-
-
+import "./Home.css"
 
 const Home = () => {
   return (
-    <div>
+    <div className="general">
       <Forecaster />
-      <Features />
       <Outdoor />
       <Reviews />
       <FAQ />
