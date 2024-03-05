@@ -46,7 +46,7 @@ const items = [
       <Accordion allowZeroExpanded>
     {items.map((item) => (
         <AccordionItem className="FAQ-accordion-container" key={item.uuid}>
-            <AccordionItemHeading>
+            <AccordionItemHeading className="FAQ-accordion-heading">
                 <AccordionItemButton className="FAQ-accordion-heading">
                     {item.heading} <img className="FAQ-accordion-heading-icon" src={arrow} alt="arrow-right" />
                 </AccordionItemButton>

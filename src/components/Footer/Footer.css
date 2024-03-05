@@ -1,14 +1,105 @@
-.footer-div {
+footer {
+  display: flex;
+  justify-content: space-around;
   background-image: url("../../assets/bottom-wave.png");
+  background-repeat: no-repeat;
+  background-color: linear-gradient(#e0a12e 0%, #e0a12e 100%);
+}
+
+.footer-div {
+  padding-top: 100px;
+  height: 460px;
+  width: 89%;
+  align-self: center;
 }
 
 .footer-div-top {
-display: flex;
-flex-direction: row;
-}
-
-.footer-div-bottom {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: 1px solid #f5b747;
+}
+
+.footer-div-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer-div-navbar-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footer-div-navbar-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.footer-div-navbar-list-social {
+  display: flex;
+  flex-direction: row;
+  margin-right: 150px;
+}
+
+.footer-div-navbar-list-item-text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #f5b747;
+}
+
+.footer-div-navbar-list-item-text:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-div-navbar-list-item-email {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 175px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #e0a12e;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.footer-div-navbar-list-join {
+  font-size: 14px;
+  font-weight: 400;
+  color: #f5b747;
+}
+
+.footer-div-bottom {
+  margin-top: 25px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-div-bottom-logo {
+  background-image: url(../../assets/juniper.png);
+  width: 120px;
+  height: 21px;
+  background-repeat: no-repeat;
+}
+ul {
+  list-style-type: none;
+}
+
+.footer-button {
+  width: 175px;
+  height: 36px;
+  border-radius: 4.77px;
+  border: 1.19px solid #f5b747;
+  background-color: #d2982d;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
 }

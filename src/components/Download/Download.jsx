@@ -6,7 +6,7 @@ const Download = () => {
     <div className="download">
       <h4 className="download-text-short">Experience the weather like never before</h4>
       <h3 className="download-text-long">The Only Weather App You Need to Stay Connected with Nature and Each Other</h3>
-      <button>DOWNLOAD NOW</button>
+      <button className="download-button">DOWNLOAD NOW</button>
     </div>
   )
 }
