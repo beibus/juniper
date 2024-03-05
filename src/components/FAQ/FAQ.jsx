@@ -7,6 +7,7 @@ import {
   AccordionItemPanel,
 } from "react-accessible-accordion"
 import "./FAQ.css"
+import arrow from "../../assets/right.png"
 
 const FAQ = () => {
 
@@ -36,16 +37,18 @@ const items = [
   return (
     <div className="FAQ">
       <h3 className="FAQ-title">
+      The Weather App That Brings You Wonder
       </h3>
       <h6 className="FAQ-text">
+      We care about your happiness and well-being, no matter the weather
       </h6>
       <div className="FAQ-accordion">
       <Accordion allowZeroExpanded>
     {items.map((item) => (
-        <AccordionItem key={item.uuid}>
+        <AccordionItem className="FAQ-accordion-container" key={item.uuid}>
             <AccordionItemHeading>
-                <AccordionItemButton>
-                    {item.heading} >
+                <AccordionItemButton className="FAQ-accordion-heading">
+                    {item.heading} <img className="FAQ-accordion-heading-icon" src={arrow} alt="arrow-right" />
                 </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>

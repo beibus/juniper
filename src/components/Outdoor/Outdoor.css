@@ -9,7 +9,8 @@
 }
 
 .outdoor-activities {
-  background-color: #E0A12E;
+  background: linear-gradient(#E0A12E 0%, #D2982D 100%);
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +43,7 @@ color: #2B261D;
 color: #403B45;  
 }
 
-.outdoor-activities-text-points:first-of-type {
+.outdoor-activities-text-points:hover {
   color: #FFFFFF;
 }
 

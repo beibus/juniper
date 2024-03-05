@@ -4,6 +4,7 @@ import "./Outdoor.css"
 import compass from "../../assets/explore.png"
 import gallery from "../../assets/gallery.png"
 import heart from "../../assets/heart.png"
+import checkmark from "../../assets/checkmark.png"
 
 
 const Outdoor = () => {
@@ -48,9 +49,9 @@ const Outdoor = () => {
         <div className="outdoor-activities-text">
           <h2>Plan Your Outdoor Activities with Ease</h2>
           <h3 className="outdoor-activities-text-secondary">Get notified before rain stops. Plan your outdoor activities</h3>
-          <h4 className="outdoor-activities-text-points">Share your weather stories and photos.</h4>
-          <h4 className="outdoor-activities-text-points">Custom weather alerts and notifications.</h4>
-          <h4 className="outdoor-activities-text-points">Smart weather integrations for your home.</h4>
+          <h4 className="outdoor-activities-text-points"><img className="outdoor-activities-text-points-icon" src={checkmark} alt="" /> Share your weather stories and photos.</h4>
+          <h4 className="outdoor-activities-text-points"><img className="outdoor-activities-text-points-icon" src={checkmark} alt="" /> Custom weather alerts and notifications.</h4>
+          <h4 className="outdoor-activities-text-points"><img className="outdoor-activities-text-points-icon" src={checkmark} alt="" /> Smart weather integrations for your home.</h4>
         </div>
       </div>
     </div>
