@@ -1,8 +1,15 @@
 import React from 'react'
+import Atmos from "../../components/Atmos/Atmos"
+import Products from "../../components/Products/Products"
+import Plans from "../../components/Plans/Plans"
 
 const Shop = () => {
   return (
-    <div>Shop</div>
+    <div>
+      <Atmos />
+      <Products />
+      <Plans />
+    </div>
   )
 }
 

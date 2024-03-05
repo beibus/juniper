@@ -1,0 +1,7 @@
+.laptop-wrapper {
+  background-color: #D2982D;
+  height: 740px;
+  background-image: url("../../assets/laptop.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
