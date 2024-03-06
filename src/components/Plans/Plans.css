@@ -1,0 +1,149 @@
+.plans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.plan-text {
+  width: 60%;
+}
+
+.plan-text-offer {
+  margin: 100px 0 0 0;
+  margin-bottom: 0px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.black {
+  color: #2b261d;
+}
+
+.plan-text-switch {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: #2b261d;
+}
+
+.plans-toggle {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plans-toggle-text {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.plans-cards {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-cards-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 224.52px;
+  height: 366px;
+  border-radius: 20px;
+  background-color: #E0A12E;
+  background-image: url("../../assets/mounts.png");
+  background-repeat: no-repeat;
+  background-position: 0px 80px;
+}
+
+.plan-cards-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 244.93px;
+  height: 400px;
+  border-radius: 20px;
+  background-image: url("../../assets/Vector12.png");
+  background-repeat: no-repeat;
+  background-position: 0px 80px;
+  background-color: #E0A12E;
+
+}
+
+.plan-cards-name {
+  margin: 20px 0 0 0;
+  font-size: 20px;
+  color: #ffffff;
+
+}
+
+.plan-cards-side-price {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.plan-cards-center-price {
+  display: flex;
+  align-items: center;
+  margin: 22px;
+
+font-size: 36px;
+color: #ffffff;
+text-align: center;
+vertical-align: middle;
+}
+
+.plan-cards-options {
+  height: 45%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.plan-cards-benefits {
+  margin: 0 0 10px 0;
+  width: 70%;
+  font-size: 12px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.plan-cards-side-button {
+  width: 134.71px;
+  height: 22px;
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+  background-color: #E0A12E;
+  color: #ffffff;
+  margin-top: 50px;
+  
+
+}
+
+.plan-cards-center-button {
+  margin-top: 50px;
+  width: 138.79px;
+height: 26px;
+border-radius: 3px;
+border: 1px solid #ffffff;
+background-color: #E0A12E;
+color: #ffffff;
+
+
+
+}
+
+.price {
+  font-size: 12px;
+  margin-right: 5px;
+}

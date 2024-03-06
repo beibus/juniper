@@ -1,0 +1,23 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.products-images {
+  width: 1127px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-button {
+  margin-top: 50px;
+  width: 175px;
+height: 34px;
+border-radius: 9px;
+border: 2px solid #F5B747;
+background-color: #D2982D;
+color: #ffffff;
+}

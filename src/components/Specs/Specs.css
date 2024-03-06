@@ -1,0 +1,15 @@
+.specs {
+  background-color: #D2982D;
+}
+.specs-wave {
+  background-image: url("../../assets/wave2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.specs-clouds {
+  background-image: url("../../assets/cloud.png");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

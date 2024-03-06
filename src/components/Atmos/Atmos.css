@@ -1,0 +1,48 @@
+.atmos {
+  height: 650px;
+  padding: 0 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.atmos-image {
+  width: 50%;
+}
+
+.atmos-content {
+  width: 40%;
+}
+
+.atmos-content-heading {
+  margin: 0;
+font-size: 64px;
+color: #ffffff;
+}
+
+.atmos-content-text {
+font-size: 20px;
+color: #403B45;
+}
+
+.atmos-content-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.atmos-content-button-buy {
+  width: 175px;
+height: 36px;
+border-radius: 5px;
+background-color: #F5B747;
+border: none;
+}
+
+.atmos-content-button-cart {
+  width: 175px;
+height: 36px;
+border-radius: 5px;
+border: 2px solid #F5B747;
+background-color: #D2982D;
+color: #ffffff;
+}
