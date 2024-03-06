@@ -1,0 +1,19 @@
+.terms {
+  display: flex;
+  justify-content: center;
+}
+
+.terms-scrollable-container {
+  width: 935px;
+  height: 548px;
+  overflow-y: scroll;
+  margin: 100px 100px;
+  border-radius: 8px;
+  background-color: #E0A12E;
+}
+
+.lock {
+  position: relative;
+  left: 850px;
+}
+
